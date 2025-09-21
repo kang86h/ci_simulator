@@ -1,0 +1,10 @@
+^C:\CODING\CI_SIMULATOR\BUILD\CMAKEFILES\982DC4F6AFF32D1C01AC431A4EBFF10B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/coding/ci_simulator -BC:/coding/ci_simulator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/coding/ci_simulator/build/ci_rt_simulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
