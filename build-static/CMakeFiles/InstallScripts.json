@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/coding/ci_simulator/build-static/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
